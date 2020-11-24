@@ -90,7 +90,7 @@ float function calculateSatietyMultiplier()
 	if (_satietyValue.getValue() >= _satietyConsideredHungry)
 		return _foodEffectivenessMultiplier
 	else
-		return _foodEffectivenessMultiplier+ ((_satietyConsideredHungry - _satietyValue.getValue()) * _multiplierBonusForHungry)
+		return _foodEffectivenessMultiplier + ((_satietyConsideredHungry - _satietyValue.getValue()) * _multiplierBonusForHungry)
 	endif
 endfunction
 
